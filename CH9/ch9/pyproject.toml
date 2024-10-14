@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ch9"
+version = "0.1.0"
+description = ""
+authors = ["KoKo Mexcelsa <qqkerk@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+torch = { url = "https://download.pytorch.org/whl/cpu/torch-2.2.2-cp311-none-macosx_10_9_x86_64.whl"}
+langchain-huggingface = "0.1.0"
+numpy = "<2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

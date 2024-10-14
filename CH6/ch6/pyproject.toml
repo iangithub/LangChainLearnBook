@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ch6"
+version = "0.1.0"
+description = ""
+authors = ["KoKo Mexcelsa <qqkerk@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+qdrant-client = "^1.10.1"
+beautifulsoup4 = "^4.12.3"
+python-dotenv = "^1.0.1"
+langchain-core = "0.3.0"
+langchain = "0.3.0"
+langchain-community = "0.3.0"
+langchain-openai = "^0.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

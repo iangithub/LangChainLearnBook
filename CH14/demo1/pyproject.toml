@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "demo1"
+version = "0.1.0"
+description = ""
+authors = ["Ian Chen <xxx@xxx.xxx>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.2.0"
+langgraph = "^0.2.14"
+ipython = "^8.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

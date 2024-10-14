@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <h1>AI English Tutor - Powered by GPT-4o</h1>
+        <textarea id="dialog"></textarea>
+        <input type="text" id="message" name="message" placeholder="請在此輸入文字訊息或按右邊錄音按鈕">
+        <button id="start">Record</button>
+        <button id="clearHistory">Clear History</button>
+        <script src="//unpkg.com/jquery"></script>
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    </body>
+</html>
