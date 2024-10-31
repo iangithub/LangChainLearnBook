@@ -48,9 +48,9 @@ summary_prompt= ChatPromptTemplate.from_template(
     )
 summary_chain =summary_prompt | llm
 
-# 建立訂單處理工作流程
+# 建立訂單處理工作流程 (勘誤,範例中 validate_order 應為 validate_order_RunnableLambda）
 workflow = RunnableSequence(
-    validate_order,
+    validate_order_RunnableLambda,
     prepare_llm_input_RunnableLambda,
     summary_chain,
     StrOutputParser()
