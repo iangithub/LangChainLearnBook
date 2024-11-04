@@ -22,7 +22,7 @@ client.upsert(
     points=[
         models.PointStruct(
             id=1,
-            payload={"user_id": "user_1"},
+            payload={"user_id": "user_0"},
             vector=[0.9, 0.1, 0.1],
         ),
         models.PointStruct(
