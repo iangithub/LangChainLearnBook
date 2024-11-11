@@ -47,7 +47,7 @@ embeddings_model = AzureOpenAIEmbeddings(
 )
 
 qdrant = Qdrant.from_documents(
-    docs,
+    documents,
     embeddings_model,
     url=qdrant_url, 
     api_key=qdrant_api_key,
